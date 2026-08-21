@@ -1,0 +1,73 @@
+name: Update profile art
+
+"on":
+  schedule:
+    # 05:47 UTC = 11:17 IST. An odd minute on purpose: GitHub's shared cron
+    # queue is congested on the hour and jobs get delayed by 10-30 minutes.
+    - cron: "47 5 * * *"
+  workflow_dispatch:
+    inputs:
+      rebuild_static:
+        description: "Also rebuild wordmark / dossier / projects from config.py"
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/update-profile-art.yml"
+
+# Least privilege: the job needs to push a commit back, nothing more.
+permissions:
+  contents: write
+
+# A slow run must never overlap the next day's run.
+concurrency:
+  group: profile-art
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    defaults:
+      run:
+        working-directory: .
+    env:
+      PYTHONPATH: scripts
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      # Scrapes the public contributions HTML. Exits non-zero if the parse
+      # returns fewer than 300 day cells, so a markup change shows up as a
+      # red X instead of silently shipping an empty grid.
+      - name: Fetch contributions
+        run: python scripts/fetch_contributions.py
+
+      - name: Render heatmap
+        run: python scripts/render_heatmap.py
+
+      - name: Rebuild static art
+        if: inputs.rebuild_static
+        run: |
+          python scripts/make_wordmark.py
+          python scripts/make_dossier.py
+          python scripts/make_projects.py
+
+      # [skip ci] stops the bot's own commit from re-triggering this workflow
+      # via the push trigger above.
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh profile art [skip ci]"
+          file_pattern: "data/contributions.json art/*.svg"
+          commit_user_name: profile-art-bot
+          commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com

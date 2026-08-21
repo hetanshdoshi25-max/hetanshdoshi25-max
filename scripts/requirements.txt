@@ -1,0 +1,5 @@
+# Everything the daily workflow needs. Nothing else.
+# The art generators (wordmark / dossier / projects) are pure stdlib on purpose —
+# no image or font libraries, so CI stays a 6-second job.
+requests==2.32.3
+beautifulsoup4==4.12.3

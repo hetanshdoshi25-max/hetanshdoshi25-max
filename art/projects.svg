@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="348" viewBox="0 0 360 348" role="img" aria-label="Selected work">
+<title>Selected work</title>
+
+<rect width="360" height="348" fill="#0A0C12"/>
+<style>
+  .fx { opacity: 0; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(.2,.7,.2,1); }
+  @keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+  @keyframes drop { from { opacity: 0; transform: translateY(-7px) scale(.72); } to { opacity: 1; transform: translateY(0) scale(1); } }
+  @keyframes slide { from { opacity: 0; transform: translateX(-10px); } to { opacity: 1; transform: translateX(0); } }
+  @media (prefers-reduced-motion: reduce) {
+    .fx { opacity: 1 !important; animation: none !important; transform: none !important; }
+  }
+</style>
+
+<rect x="6" y="6" width="348" height="336" rx="3" fill="#11141D" stroke="#1C2233" stroke-width="1"/>
+<path d="M15 6 H6 V15" fill="none" stroke="#3B5BFF" stroke-width="1.4" opacity=".85"/>
+<path d="M345 6 H354 V15" fill="none" stroke="#3B5BFF" stroke-width="1.4" opacity=".85"/>
+<path d="M15 342 H6 V333" fill="none" stroke="#3B5BFF" stroke-width="1.4" opacity=".85"/>
+<path d="M345 342 H354 V333" fill="none" stroke="#3B5BFF" stroke-width="1.4" opacity=".85"/>
+<text x="22" y="30" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" letter-spacing="2.4" fill="#6F7891" class="fx" style="animation:fade .45s .05s forwards">SELECTED WORK</text>
+<line x1="18" y1="42" x2="342" y2="42" stroke="#1C2233" stroke-width="1" class="fx" style="animation:fade .4s .12s forwards"/>
+<g class="fx" style="animation:rise .5s 0.30s forwards">
+<rect x="18" y="54" width="324" height="86" rx="2" fill="#11141D" stroke="#1C2233" stroke-width="1"/>
+<rect x="18" y="54" width="2.5" height="86" fill="#3B5BFF"/>
+<text x="32" y="76" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" letter-spacing="1.5" fill="#8AA0FF">01</text>
+<text x="62" y="76" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12.5" letter-spacing="0.4" fill="#E7E3D8">aethon-releases</text>
+<text x="32" y="100" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" fill="#6F7891">Desktop AI assistant. Voice, gesture control,</text>
+<text x="32" y="115" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" fill="#6F7891">file generation, Telegram remote.</text>
+</g>
+<g class="fx" style="animation:rise .5s 0.43s forwards">
+<rect x="18" y="149" width="324" height="86" rx="2" fill="#11141D" stroke="#1C2233" stroke-width="1"/>
+<rect x="18" y="149" width="2.5" height="86" fill="#3B5BFF"/>
+<text x="32" y="171" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" letter-spacing="1.5" fill="#8AA0FF">02</text>
+<text x="62" y="171" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12.5" letter-spacing="0.4" fill="#E7E3D8">hetansh-portfolio</text>
+<text x="32" y="195" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" fill="#6F7891">hetanshdoshi.com — editorial dossier build,</text>
+<text x="32" y="210" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" fill="#6F7891">Next.js on Vercel.</text>
+</g>
+<g class="fx" style="animation:rise .5s 0.56s forwards">
+<rect x="18" y="244" width="324" height="86" rx="2" fill="#11141D" stroke="#1C2233" stroke-width="1"/>
+<rect x="18" y="244" width="2.5" height="86" fill="#3B5BFF"/>
+<text x="32" y="266" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" letter-spacing="1.5" fill="#8AA0FF">03</text>
+<text x="62" y="266" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12.5" letter-spacing="0.4" fill="#E7E3D8">resume-analyzer</text>
+<text x="32" y="290" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" fill="#6F7891">JavaFX + MySQL + Gemini. Reads a PDF resume,</text>
+<text x="32" y="305" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" fill="#6F7891">finds the skill gaps.</text>
+</g>
+</svg>
