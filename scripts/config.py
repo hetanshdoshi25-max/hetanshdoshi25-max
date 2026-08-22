@@ -17,7 +17,7 @@ ULTRA = "#3B5BFF"   # accent structure
 ULTRA_LT = "#8AA0FF"   # accent type
 GOLD = "#C8A227"   # rationed accent
 
-# Contribution exposure ramp — deliberately NOT GitHub green.
+# Contribution exposure ramp , deliberately NOT GitHub green.
 # Reads as a photographic plate: unexposed ink, exposed ultramarine, blown-out white.
 # GitHub only emits levels 0-4; level 5 is derived locally (top decile) so the
 # brightest tier has to be earned. See fetch_contributions.py.
@@ -29,28 +29,32 @@ MONO = "ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans M
 
 # ---------------------------------------------------------------- content
 WORDMARK = "HETANSH"
-TAGLINE = "founder / aethon  ·  full-stack  ·  mumbai"
+TAGLINE = "founder / aethon  /  full-stack  /  mumbai"
 
 DOSSIER_TITLE = "hetansh@github"
 DOSSIER_ROWS = [
-    ("now",      "Founder & sole engineer — Aethon (aethonchat.com)"),
-    ("building", "AETHON-ZYRA — desktop AI assistant, voice + gesture"),
-    ("agency",   "WALNUTS Media — social, 12+ client accounts"),
-    ("also",     "717 Productions · independent content"),
-    ("study",    "Computer Engineering, SAKEC Mumbai — year 2"),
-    ("stack",    "TypeScript · Next.js · Python · FastAPI · Electron"),
-    ("ai",       "Gemini Live · Groq · LiveKit · Supabase · Firebase"),
-    ("metal",    "Raspberry Pi · MediaPipe · OpenCV"),
-    ("off-duty", "lifting · bikes · watches"),
-    ("loc",      "Mumbai, IN — UTC+5:30"),
+    ("now",      "Founder & sole engineer, Aethon (aethonchat.com)"),
+    ("building", "AETHON-ZYRA, desktop AI assistant, voice + gesture"),
+    ("agency",   "WALNUTS Media, social, 12+ client accounts"),
+    ("also",     "717 Productions, independent content"),
+    ("study",    "Computer Engineering, SAKEC Mumbai, year 2"),
+    ("stack",    "TypeScript / Next.js / Python / FastAPI / Electron"),
+    ("ai",       "Gemini Live / Groq / LiveKit / Supabase / Firebase"),
+    ("metal",    "Raspberry Pi / MediaPipe / OpenCV"),
+    ("press",    "The Entrepreneur Bytes, Times of Entrepreneurs"),
+    ("built",    "8,000+ member Discord community"),
+    ("off-duty", "lifting / bikes / watches"),
+    ("loc",      "Mumbai, IN (UTC+5:30)"),
 ]
 
 # Right-hand column. These map to real public repos so the names are checkable.
-# Keep to three; a fourth breaks the height match with the dossier card.
+# The panel height is pinned to the dossier card's, so adding a fifth entry
+# means raising PANEL_H in BOTH make_dossier.py and make_projects.py.
 PROJECTS = [
     ("01", "aethon-releases",   "Desktop AI assistant. Voice, gesture control,\nfile generation, Telegram remote."),
-    ("02", "hetansh-portfolio", "hetanshdoshi.com — editorial dossier build,\nNext.js on Vercel."),
-    ("03", "resume-analyzer",   "JavaFX + MySQL + Gemini. Reads a PDF resume,\nfinds the skill gaps."),
+    ("02", "india-dev-apis",    "Indian APIs for developers. Every endpoint\nmachine-checked daily by CI."),
+    ("03", "hetansh-portfolio", "hetanshdoshi.com, editorial dossier build,\nNext.js on Vercel."),
+    ("04", "resume-analyzer",   "JavaFX + MySQL + Gemini. Reads a PDF resume,\nfinds the skill gaps."),
 ]
 
-LINKS = "hetanshdoshi.com   ·   aethonchat.com"
+LINKS = "hetanshdoshi.com   /   aethonchat.com"

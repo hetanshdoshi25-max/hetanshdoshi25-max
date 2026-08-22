@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-make_projects.py — the "selected work" column (right column, 360px).
+make_projects.py , the "selected work" column (right column, 360px).
 
 Height is pinned to the dossier card's 348px so the two <td>s in the README
 table have flush bottom edges. If you change one, change both.
@@ -18,9 +18,9 @@ from svgkit import esc, header, base_css, bg, plate
 
 STATIC = os.environ.get("STATIC") == "1"
 
-W, H = 360, 348          # H must match make_dossier.H
+W, H = 360, 412          # H must match make_dossier.H
 PAD = 18
-CARD_H, GAP = 86, 9
+CARD_H, GAP = 79, 8
 
 
 def build() -> str:
@@ -42,7 +42,7 @@ def build() -> str:
         out.append(f'<g class="fx" style="{css(f"rise .5s {d:.2f}s forwards")}">')
         out.append(f'<rect x="{PAD}" y="{y}" width="{W - PAD * 2}" height="{CARD_H}" '
                    f'rx="2" fill="{PANEL}" stroke="{RULE}" stroke-width="1"/>')
-        # left spine — the accent that marks a card as an entry
+        # left spine , the accent that marks a card as an entry
         out.append(f'<rect x="{PAD}" y="{y}" width="2.5" height="{CARD_H}" fill="{ULTRA}"/>')
         out.append(f'<text x="{PAD + 14}" y="{y + 22}" font-family="{MONO}" font-size="10.5" '
                    f'letter-spacing="1.5" fill="{ULTRA_LT}">{esc(num)}</text>')

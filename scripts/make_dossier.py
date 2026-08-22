@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-make_dossier.py — the neofetch-style identity card (left column, 520px).
+make_dossier.py , the neofetch-style identity card (left column, 520px).
 
 Content lives in config.py so this file stays layout-only. Keep GitHub stats
 OUT of here; the heatmap already covers those. This card is for the things a
 contribution count can't say.
 
 Animation is CSS keyframes inside the SVG (staggered slide-in per row). CSS
-inside an SVG *file* is fine — GitHub only sanitises CSS in the README's own
+inside an SVG *file* is fine , GitHub only sanitises CSS in the README's own
 HTML, not inside an image it serves.
 
 Static art. Regenerate when your details change.
@@ -21,7 +21,7 @@ from svgkit import esc, header, base_css, bg, plate
 
 STATIC = os.environ.get("STATIC") == "1"
 
-W, H = 520, 348
+W, H = 520, 412
 PAD = 20
 LABEL_X = PAD + 4
 VALUE_X = PAD + 86
@@ -31,7 +31,7 @@ def build() -> str:
     def css(anim):
         return "opacity:1" if STATIC else f"animation:{anim}"
 
-    out = [header(W, H, f"{DOSSIER_TITLE} — profile card"), bg(W, H), base_css()]
+    out = [header(W, H, f"{DOSSIER_TITLE} , profile card"), bg(W, H), base_css()]
     out.append(plate(6, 6, W - 12, H - 12))
 
     # header strip
