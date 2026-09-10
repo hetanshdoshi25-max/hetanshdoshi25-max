@@ -17,13 +17,13 @@ ULTRA = "#3B5BFF"   # accent structure
 ULTRA_LT = "#8AA0FF"   # accent type
 GOLD = "#C8A227"   # rationed accent
 
-# Contribution exposure ramp , deliberately NOT GitHub green.
+# Contribution exposure ramp, deliberately NOT GitHub green.
 # Reads as a photographic plate: unexposed ink, exposed ultramarine, blown-out white.
 # GitHub only emits levels 0-4; level 5 is derived locally (top decile) so the
 # brightest tier has to be earned. See fetch_contributions.py.
 RAMP = ["#141824", "#1D2A6B", "#2A44C4", "#3B5BFF", "#7E97FF", "#C9D6FF"]
 
-# SVG can only use fonts present on the *viewer's* machine, so every face
+# SVG can only use fonts present on the viewer's machine, so every face
 # must be a generic fallback chain. The monotype constraint is the aesthetic.
 MONO = "ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace"
 
@@ -43,18 +43,20 @@ DOSSIER_ROWS = [
     ("metal",    "Raspberry Pi / MediaPipe / OpenCV"),
     ("press",    "The Entrepreneur Bytes, Times of Entrepreneurs"),
     ("built",    "8,000+ member Discord community"),
+    ("hack",     "SIH 2026 finalist, SUTRADHAR, with NTRO"),
     ("off-duty", "lifting / bikes / watches"),
     ("loc",      "Mumbai, IN (UTC+5:30)"),
 ]
 
 # Right-hand column. These map to real public repos so the names are checkable.
-# The panel height is pinned to the dossier card's, so adding a fifth entry
-# means raising PANEL_H in BOTH make_dossier.py and make_projects.py.
+# Panel height is pinned to the dossier card's; both are computed in their
+# respective make_*.py from PAD/CARD_H/GAP and row counts. Keep the two in sync.
 PROJECTS = [
-    ("01", "aethon-releases",   "Desktop AI assistant. Voice, gesture control,\nfile generation, Telegram remote."),
-    ("02", "india-dev-apis",    "Indian APIs for developers. Every endpoint\nmachine-checked daily by CI."),
-    ("03", "hetansh-portfolio", "hetanshdoshi.com, editorial dossier build,\nNext.js on Vercel."),
-    ("04", "resume-analyzer",   "JavaFX + MySQL + Gemini. Reads a PDF resume,\nfinds the skill gaps."),
+    ("01", "sutradhar",         "Dark web persona de-anonymization via writing\nstyle. Smart India Hackathon 2026, PS 26151."),
+    ("02", "aethon-releases",   "Desktop AI assistant. Voice, gesture control,\nfile generation, Telegram remote."),
+    ("03", "india-dev-apis",    "Indian APIs for developers. Every endpoint\nmachine-checked daily by CI."),
+    ("04", "hetansh-portfolio", "hetanshdoshi.com, editorial dossier build,\nNext.js on Vercel."),
+    ("05", "resume-analyzer",   "JavaFX + MySQL + Gemini. Reads a PDF resume,\nfinds the skill gaps."),
 ]
 
 LINKS = "hetanshdoshi.com   /   aethonchat.com"
