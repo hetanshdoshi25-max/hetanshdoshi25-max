@@ -43,7 +43,7 @@ DOSSIER_ROWS = [
     ("metal",    "Raspberry Pi / MediaPipe / OpenCV"),
     ("press",    "The Entrepreneur Bytes, Times of Entrepreneurs"),
     ("built",    "8,000+ member Discord community"),
-    ("hack",     "SIH 2026 finalist, SUTRADHAR, with NTRO"),
+    ("hack",     "SIH 2026 shortlisted, SUTRADHAR, with NTRO"),
     ("off-duty", "lifting / bikes / watches"),
     ("loc",      "Mumbai, IN (UTC+5:30)"),
 ]
@@ -52,7 +52,7 @@ DOSSIER_ROWS = [
 # Panel height is pinned to the dossier card's; both are computed in their
 # respective make_*.py from PAD/CARD_H/GAP and row counts. Keep the two in sync.
 PROJECTS = [
-    ("01", "sutradhar",         "Dark web persona de-anonymization via writing\nstyle. Smart India Hackathon 2026, PS 26151."),
+    ("01", "sutradhar",         "Dark web persona linking across 6 signals,\nnot just writing style: OPSEC, infra, crypto. Smart India Hackathon 2026, PS 26151."),
     ("02", "aethon-releases",   "Desktop AI assistant. Voice, gesture control,\nfile generation, Telegram remote."),
     ("03", "india-dev-apis",    "Indian APIs for developers. Every endpoint\nmachine-checked daily by CI."),
     ("04", "hetansh-portfolio", "hetanshdoshi.com, editorial dossier build,\nNext.js on Vercel."),
