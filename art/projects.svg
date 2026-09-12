@@ -25,8 +25,8 @@
 <rect x="18" y="54.0" width="2.5" height="69.6" fill="#3B5BFF"/>
 <text x="32" y="76.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" letter-spacing="1.5" fill="#8AA0FF">01</text>
 <text x="62" y="76.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12.5" letter-spacing="0.4" fill="#E7E3D8">sutradhar</text>
-<text x="32" y="100.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" fill="#6F7891">Dark web persona de-anonymization via writing</text>
-<text x="32" y="115.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" fill="#6F7891">style. Smart India Hackathon 2026, PS 26151.</text>
+<text x="32" y="100.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" fill="#6F7891">Dark web persona linking across 6 signals,</text>
+<text x="32" y="115.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" fill="#6F7891">not just writing style: OPSEC, infra, crypto. Smart India Hackathon 2026, PS 26151.</text>
 </g>
 <g class="fx" style="animation:rise .5s 0.41s forwards">
 <rect x="18" y="131.6" width="324" height="69.6" rx="2" fill="#11141D" stroke="#1C2233" stroke-width="1"/>
