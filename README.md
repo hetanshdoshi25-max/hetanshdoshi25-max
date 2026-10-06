@@ -31,7 +31,7 @@
 <table>
   <tr>
     <td valign="top"><img src="./art/dossier.svg?v=2" width="520" alt="Profile card: founder of Aethon, WALNUTS Media, Computer Engineering at SAKEC Mumbai" /></td>
-    <td valign="top"><img src="./art/projects.svg?v=2" width="360" alt="Selected work: SUTRADHAR, AETHON-ZYRA, india-dev-apis, portfolio, resume analyzer" /></td>
+    <td valign="top"><img src="./art/projects.svg?v=3" width="360" alt="Selected work: SUTRADHAR, AETHON-ZYRA, india-dev-apis, resume analyzer, Fair Drop" /></td>
   </tr>
 </table>
 

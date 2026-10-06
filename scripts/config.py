@@ -55,8 +55,8 @@ PROJECTS = [
     ("01", "sutradhar",         "Persona linking across 6 signals: style,\nOPSEC, infra, crypto. SIH 2026, PS 26151."),
     ("02", "aethon-releases",   "Desktop AI assistant. Voice, gesture control,\nfile generation, Telegram remote."),
     ("03", "india-dev-apis",    "Indian APIs for developers. Every endpoint\nmachine-checked daily by CI."),
-    ("04", "hetansh-portfolio", "hetanshdoshi.com, editorial dossier build,\nNext.js on Vercel."),
-    ("05", "resume-analyzer",   "JavaFX + MySQL + Gemini. Reads a PDF resume,\nfinds the skill gaps."),
+    ("04", "resume-analyzer",   "JavaFX + MySQL + Gemini. Reads a PDF resume,\nfinds the skill gaps."),
+    ("05", "BNB26_Brainiancs_Internal_Round", "Fair Drop: 500 seats, 50k fans. Sealed draw,\nPoW, rate limits, live fairness audit."),
 ]
 
 LINKS = "hetanshdoshi.com   /   aethonchat.com"

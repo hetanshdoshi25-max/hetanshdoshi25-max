@@ -48,16 +48,16 @@
 <rect x="18" y="286.8" width="324" height="69.6" rx="2" fill="#11141D" stroke="#1C2233" stroke-width="1"/>
 <rect x="18" y="286.8" width="2.5" height="69.6" fill="#3B5BFF"/>
 <text x="32" y="308.8" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" letter-spacing="1.5" fill="#8AA0FF">04</text>
-<text x="62" y="308.8" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12.5" letter-spacing="0.4" fill="#E7E3D8">hetansh-portfolio</text>
-<text x="32" y="332.8" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" fill="#6F7891">hetanshdoshi.com, editorial dossier build,</text>
-<text x="32" y="347.8" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" fill="#6F7891">Next.js on Vercel.</text>
+<text x="62" y="308.8" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12.5" letter-spacing="0.4" fill="#E7E3D8">resume-analyzer</text>
+<text x="32" y="332.8" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" fill="#6F7891">JavaFX + MySQL + Gemini. Reads a PDF resume,</text>
+<text x="32" y="347.8" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" fill="#6F7891">finds the skill gaps.</text>
 </g>
 <g class="fx" style="animation:rise .5s 0.74s forwards">
 <rect x="18" y="364.4" width="324" height="69.6" rx="2" fill="#11141D" stroke="#1C2233" stroke-width="1"/>
 <rect x="18" y="364.4" width="2.5" height="69.6" fill="#3B5BFF"/>
 <text x="32" y="386.4" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" letter-spacing="1.5" fill="#8AA0FF">05</text>
-<text x="62" y="386.4" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12.5" letter-spacing="0.4" fill="#E7E3D8">resume-analyzer</text>
-<text x="32" y="410.4" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" fill="#6F7891">JavaFX + MySQL + Gemini. Reads a PDF resume,</text>
-<text x="32" y="425.4" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" fill="#6F7891">finds the skill gaps.</text>
+<text x="62" y="386.4" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12.5" letter-spacing="0.4" fill="#E7E3D8">BNB26_Brainiancs_Internal_Round</text>
+<text x="32" y="410.4" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" fill="#6F7891">Fair Drop: 500 seats, 50k fans. Sealed draw,</text>
+<text x="32" y="425.4" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" fill="#6F7891">PoW, rate limits, live fairness audit.</text>
 </g>
 </svg>
